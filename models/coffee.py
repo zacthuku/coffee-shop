@@ -1,4 +1,4 @@
-from order import Order
+from models.order import Order
 
 class Coffee:
 

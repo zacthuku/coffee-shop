@@ -1,6 +1,6 @@
-from customer import Customer
-from coffee import Coffee
-from order import Order
+from models.customer import Customer
+from models.coffee import Coffee
+
 
 # Create Customers
 alice = Customer("Alice")

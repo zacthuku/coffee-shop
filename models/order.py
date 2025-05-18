@@ -11,7 +11,7 @@ class Order:
         return self._customer 
     @customer.setter
     def customer(self, value):
-        from customer import Customer
+        from models.customer import Customer
         if isinstance (value, Customer):
             self._customer = value
         else:
@@ -23,7 +23,7 @@ class Order:
     
     @coffee.setter
     def coffee(self, value):
-        from coffee import Coffee
+        from models.coffee import Coffee
         if isinstance (value, Coffee):
             self._coffee = value
         else:
